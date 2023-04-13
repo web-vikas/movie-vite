@@ -1,6 +1,5 @@
 import React from "react";
 
-import Card from "./Movie_card";
 import Genre_card from "./Genre_card";
 import Carousel from "./Carousel";
 
@@ -28,26 +27,3 @@ const Hero = () => {
   );
 };
 export default Hero;
-// const Carousel = () => {
-// const [movies, setMovies] = useState([]);
-//   useEffect(() => {
-//     axios
-//       .post("https://buffee-backend.vercel.app/")
-//       .then((res) => {
-//         setMovies(res.data.movies);
-//         // console.log(res.data.movies);
-//       })
-//       .catch((e) => console.log(e));
-//   }, []);
-// card
-// {
-  /* <div className="hero__cards__card">
-          {movies.map((value, index) => {
-            const { poster_url, title } = value;
-            if (index < 10) {
-              // console.log(index);
-              return <Card key={index} src={poster_url} title={title} />;
-            }
-          })}
-        </div> */
-// }
