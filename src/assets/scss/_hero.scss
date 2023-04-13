@@ -1,0 +1,38 @@
+@include maximum(mobile) {
+    .hero {
+        &__category {
+            margin-top: 1rem;
+
+            &__title {
+                h2 {
+                    font-size: $fs-lg;
+                }
+
+                a {
+                    color: $dark-yellow;
+                    font-weight: $Medium;
+                    gap: 10px;
+                    font-size: $fs-md;
+                }
+            }
+
+            &__ganreCards {
+                margin-top: 1rem;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+                grid-gap: 0.6rem;
+                place-items: center;
+            }
+        }
+
+        // &__cards {
+        //     margin-top: 1.2rem;
+
+        //     &__card {
+        //         display: grid;
+        //         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        //         gap: 1rem;
+        //     }
+        // }
+    }
+}

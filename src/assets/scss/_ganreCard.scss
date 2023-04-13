@@ -1,0 +1,15 @@
+.genre_card {
+    width: fit-content;
+    font-size: $fs-sm;
+    text-align: center;
+
+    div {
+        background-color: $Light-grayish;
+        border-radius: 20px;
+        width: 3.8rem;
+        aspect-ratio: 1/1;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
